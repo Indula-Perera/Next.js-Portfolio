@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import logo from "../../public/images/profile/logo.jpg"; // Import the next/image component
+import logo from "../../public/images/profile/logo.png"; // Import the next/image component
 
 const MotionLink = motion(Link);
 
@@ -26,9 +26,11 @@ const Logo = () => {
         <Image
           src={logo} // Path to your image file in the public directory
           alt="Logo"
-          width={32} // Set the width of the image
-          height={32} // Set the height of the image
+          width={54} // Set the width of the image
+          height={54} // Set the height of the image
         />
+
+        
       </MotionLink>
     </div>
   );
