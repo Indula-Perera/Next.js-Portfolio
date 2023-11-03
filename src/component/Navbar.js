@@ -114,15 +114,15 @@ const Navbar = () => {
           >
             <GithubIcon />
           </motion.a>
-          <motion.a
-            href="https://twitter.com/MaduraPrasadLk"
+          {/* <motion.a
+            href="https://twitter.com/Indula-Perera"
             target={"_blank"}
             whileHover={{ y: -2 }}
             className="w-6 mx-3"
             whileTap={{ scale: 0.9 }}
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
 
           <button
             className={`ml-3 flex items-center justify-center rounded-full p-1
@@ -191,15 +191,15 @@ const Navbar = () => {
             >
               <GithubIcon />
             </motion.a>
-            <motion.a
-              href="https://twitter.com/MaduraPrasadLk"
+            {/* <motion.a
+              href="https://twitter.com/indulaperera"
               target={"_blank"}
               whileHover={{ y: -2 }}
               className="w-6 mx-3 sm:mx-1"
               whileTap={{ scale: 0.9 }}
             >
               <TwitterIcon />
-            </motion.a>
+            </motion.a> */}
 
             <button
               className={`ml-3 flex items-center justify-center rounded-full p-1
