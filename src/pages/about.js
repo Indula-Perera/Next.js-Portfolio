@@ -59,11 +59,11 @@ const about = () => {
               </p>
             </div>
 
-            <div className="relative col-span-2 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 ">
+            <div className="relative col-span-2 p-6 border-2 border-solid h-max w-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 ">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Madura Prasad"
+                alt="indula perera"
                 className="cursor-pointer w-60 h-90 rounded-2xl"
                 priority sizes="(max-width:768px) 100vw,(max-width:1200px)50vw,33vw"
               />
