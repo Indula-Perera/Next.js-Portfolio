@@ -97,7 +97,7 @@ const Navbar = () => {
 
         <nav className="flex flex-wrap items-center justify-center">
           <motion.a
-            href="https://www.linkedin.com/in/madura-prasad/"
+            href="https://www.linkedin.com/in/indula-perera/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             className="w-6 mx-3"
@@ -106,7 +106,7 @@ const Navbar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/Madura-Prasad"
+            href="https://github.com/Indula-Perera"
             target={"_blank"}
             whileHover={{ y: -2 }}
             className="w-6 mx-3"
