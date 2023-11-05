@@ -10,7 +10,8 @@ import blogApp from "../../public/images/projects/blogapp.png";
 import Aisummarizer from "../../public/images/projects/Aisummarizer.png";
 import zara from "../../public/images/projects/zara.png";
 import pos from "../../public/images/projects/pos.png";
-import roadtrip from "../../public/images/projects/roadtrip.png";
+import Admin from "../../public/images/projects/Admin.png";
+import port from "../../public/images/projects/port.png";
 import woocomerce from "../../public/images/projects/woocomerce.png";
 
 import Project1 from "../../public/images/projects/dummy.png";
@@ -138,10 +139,22 @@ const projects = () => {
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12"></div>
+            
+            <div className="col-span-12 sm:col-span-12">
+              <FeaturedProject
+                title="Blog Web App With Malicious URL Detection"
+                img={blogApp}
+                summary="For my BSc Final Project, I developed a sophisticated blog web application with a primary focus on Malicious URL Detection. The web application was built using Next.js and MongoDB for the route API, ensuring a seamless user experience. To enhance security, I integrated Python and NLP techniques to create a robust Malicious URL Detection system. To showcase the project, I used the Streamlit library for deployment. In addition to security features, the blog application supports categorized blog posting and allows users to publish comments. To enhance user convenience and authentication, I implemented Google and GitHub authentication for logging into the website. This project represents a comprehensive demonstration of my skills in web development, security, and authentication integration."
+                link="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
+                type="Next.JS Project"
+                github="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
+              />
+            </div>
+            
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Blog Web App With URL Detection"
-                img={blogApp}
+                title="React Portfolio With Mailing "
+                img={port}
                 link="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
                 type="React Project"
                 github="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
@@ -158,13 +171,14 @@ const projects = () => {
             </div>
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="E Commerce Shop POS System"
-                img={pos}
-                link="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
-                type="PHP Project"
-                github="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
+                title="Admin Dashboard Template"
+                img={Admin}
+                link="https://github.com/Indula-Perera/React-Admin-Dashboard.git"
+                type="React (Front-end)"
+                github="https://github.com/Indula-Perera/React-Admin-Dashboard.git"
               />
             </div>
+            
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
                 title="Zara Wide Cloth Store "
@@ -177,13 +191,14 @@ const projects = () => {
             </div>
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Travel Web Site"
-                img={roadtrip}
-                link="https://github.com/Madura-Prasad/Travel-WebSite.git"
-                type="Web Development Project (Campus)"
-                github="https://github.com/Madura-Prasad/Travel-WebSite.git"
+                title="E Commerce Shop POS System"
+                img={pos}
+                link="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
+                type="PHP Project"
+                github="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
               />
             </div>
+           
             <div className="col-span-4 sm:col-span-12">
               <Project
                 title="Woo-Commerce Site"

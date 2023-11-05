@@ -17,7 +17,7 @@ module.exports = {
         dark: "#1b1b1b",
         light: "#f5f5f5",
         primary: "#0dcaf0", // 240,86,199
-        primaryDark: "#F5C32C", // 80,230,217
+        primaryDark: "#FCA61F", // 80,230,217
       },
       backgroundImage: {
         circularLight:
