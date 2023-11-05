@@ -65,9 +65,9 @@ After you've completed the "Getting Started" steps, you can run the portfolio lo
 
 If you'd like to get in touch with me, feel free to reach out through one of the following channels:
 
-- Email: [your@email.com](mailto:indula333@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/indula-perera/)
-- Personal Website: [YourWebsite.com](https://indula.netlify.app/)
+- Email: indula333@gmail.com
+- LinkedIn: https://www.linkedin.com/in/indula-perera/
+- Personal Website: https://indula.netlify.app/
 
 I look forward to connecting with you!
 
