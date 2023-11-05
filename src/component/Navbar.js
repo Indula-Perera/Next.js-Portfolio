@@ -169,7 +169,7 @@ const Navbar = () => {
               title="Contact"
               className=""
               toggle={handleClick}
-            /> */}
+            /> */} 
           </nav>
 
           <nav className="flex flex-wrap items-center justify-center mt-2">
