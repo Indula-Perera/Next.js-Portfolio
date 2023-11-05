@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import constructionApp from "../../public/images/projects/constructionApp.png";
-import Warehouse from "../../public/images/projects/warhouse.png";
+import blogApp from "../../public/images/projects/blogapp.png";
+import Aisummarizer from "../../public/images/projects/Aisummarizer.png";
 import imperial from "../../public/images/projects/imperial.png";
 import pos from "../../public/images/projects/pos.png";
 import roadtrip from "../../public/images/projects/roadtrip.png";
@@ -122,7 +122,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Madura Prasad | Projects page</title>
+        <title>Indula Perera | Projects page</title>
         <meta
           name="description"
           content="Indula Perera | Projects | GitHub | github"
@@ -140,29 +140,29 @@ const projects = () => {
             <div className="col-span-12"></div>
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Construction App"
-                img={constructionApp}
-                link="https://github.com/Madura-Prasad/Construction-App.git"
-                type="App Development Project (Campus)"
-                github="https://github.com/Madura-Prasad/Construction-App.git"
+                title="Blog Web App With URL Detection"
+                img={blogApp}
+                link="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
+                type="React Project"
+                github="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
               />
             </div>
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Warehouse System"
-                img={Warehouse}
-                link="https://github.com/Madura-Prasad/Warehouse-Desktop-Application.git"
-                type="JAVA OOP Project (Campus)"
-                github="https://github.com/Madura-Prasad/Warehouse-Desktop-Application.git"
+                title="Articles Summarize Web App "
+                img={Aisummarizer}
+                link="https://github.com/Indula-Perera/OpenAI-Article-Summarizer.git"
+                type="React / OpenAI Project"
+                github="https://github.com/Indula-Perera/OpenAI-Article-Summarizer.git"
               />
             </div>
             <div className="col-span-4 sm:col-span-12">
               <Project
                 title="E Commerce Shop POS System"
                 img={pos}
-                link="https://github.com/Madura-Prasad/E-Commerce-Shop-POS-System.git"
-                type="PHP Project (Personal)"
-                github="https://github.com/Madura-Prasad/E-Commerce-Shop-POS-System.git"
+                link="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
+                type="PHP Project"
+                github="https://github.com/Indula-Perera/Point-of-Sale-Project.git"
               />
             </div>
             <div className="col-span-12 sm:col-span-12">
