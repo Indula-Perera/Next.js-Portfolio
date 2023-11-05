@@ -8,7 +8,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import blogApp from "../../public/images/projects/blogapp.png";
 import Aisummarizer from "../../public/images/projects/Aisummarizer.png";
-import imperial from "../../public/images/projects/imperial.png";
+import zara from "../../public/images/projects/zara.png";
 import pos from "../../public/images/projects/pos.png";
 import roadtrip from "../../public/images/projects/roadtrip.png";
 import woocomerce from "../../public/images/projects/woocomerce.png";
@@ -167,12 +167,12 @@ const projects = () => {
             </div>
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
-                title="Imperial Educational Center"
-                img={imperial}
-                summary="The Imperial College HD Final Project is a web application developed using PHP, JavaScript, jQuery, and MySQL. The goal of the project is to create a platform that allows students to access various resources related to their studies and interact with each other. The platform features a dashboard where students can view their course schedules, grades, and announcements from their professors. Additionally, students can join discussion forums and chat rooms to collaborate with their peers. The platform also includes a search function that allows students to find relevant resources, such as study guides and past exam papers. The system is designed to be user-friendly and intuitive, with a modern and visually appealing interface. Overall, the Imperial College HD Final Project aims to enhance the learning experience for students and facilitate communication and collaboration within the academic community."
-                link="https://github.com/Madura-Prasad/Learning-Management-Website.git"
+                title="Zara Wide Cloth Store "
+                img={zara}
+                summary="Zara Wide is a high-distinction online clothing store project, meticulously designed using PHP, JavaScript, and SQL. It offers an exceptional online shopping experience and robust administrative capabilities. Customers enjoy a user-friendly interface with an extensive product catalog, an efficient shopping cart, and secure user authentication. An admin panel empowers administrators to manage products, users, and orders seamlessly. This project highlights your web development skills and database management expertise, making it a valuable addition to your portfolio. Consider further enhancements such as recommendation engines and payment gateway integration for a more immersive shopping experience."
+                link="https://github.com/Indula-Perera/Full-Functional-PHP-e-commerce-website-HD-Final-Project.git"
                 type="Higher Diploma Final Project (Campus)"
-                github="https://github.com/Madura-Prasad/Learning-Management-Website.git"
+                github="https://github.com/Indula-Perera/Full-Functional-PHP-e-commerce-website-HD-Final-Project.git"
               />
             </div>
             <div className="col-span-4 sm:col-span-12">
