@@ -12,7 +12,7 @@ import zara from "../../public/images/projects/zara.png";
 import pos from "../../public/images/projects/pos.png";
 import Admin from "../../public/images/projects/Admin.png";
 import port from "../../public/images/projects/port.png";
-import woocomerce from "../../public/images/projects/woocomerce.png";
+import RoadTrip from "../../public/images/projects/RoadTrip.png";
 
 import Project1 from "../../public/images/projects/dummy.png";
 import TransitionEffect from "@/component/TransitionEffect";
@@ -155,9 +155,9 @@ const projects = () => {
               <Project
                 title="React Portfolio With Mailing "
                 img={port}
-                link="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
+                link="https://github.com/Indula-Perera/React-Portfolio.git"
                 type="React Project"
-                github="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"
+                github="https://github.com/Indula-Perera/React-Portfolio.git"
               />
             </div>
             <div className="col-span-4 sm:col-span-12">
@@ -201,11 +201,11 @@ const projects = () => {
            
             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Woo-Commerce Site"
-                img={woocomerce}
-                link="https://github.com/Madura-Prasad/Laravel-Online-E-Commerce-Store.git"
-                type="Laravel Project (Campus)"
-                github="https://github.com/Madura-Prasad/Laravel-Online-E-Commerce-Store.git"
+                title="Trip Planning And Booking Web App"
+                img={RoadTrip}
+                link="https://github.com/Indula-Perera/Travel-Website--Road-Trip-Srilanka.git"
+                type="PHP Project (Campus)"
+                github="https://github.com/Indula-Perera/Travel-Website--Road-Trip-Srilanka.git"
               />
             </div>
             {/* <div className="col-span-4 sm:col-span-12">
