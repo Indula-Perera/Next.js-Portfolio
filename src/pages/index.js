@@ -35,6 +35,8 @@ export default function Home() {
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl
                 "
               />
+
+              
               <p className="my-4 text-base font-medium cursor-pointer md:text-sm sm:text-xs">
               My professional goal is to achieve success as a software engineer, leveraging my expertise and abilities to create innovative software solutions that cater to the needs of both businesses and end-users.
               </p>

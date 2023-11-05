@@ -11,7 +11,7 @@ const Article = ({ title, date, link }) => {
   // ... (No changes needed for this component)
 };
 
-const Articles = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -86,19 +86,19 @@ const Articles = () => {
                   placeholder="Your Email"
                 />
               </div>
-              <div className="relative p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light">
-                <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[102%] rounded-[2rem] bg-dark dark:bg-light" />
+              <div className="relative p-8 mb-10 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light">
+                <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-light " />
                 <textarea
                   name="message"
                   id="message"
                   rows="5"
-                  className="w-full p-2 text-lg border rounded-md border-dark bg-light dark:bg-dark dark:border-light"
+                  className="w-full p-2 text-sm border rounded-md border-dark bg-light dark:bg-dark dark:border-light" 
                   placeholder="Your Message"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full mt-6 items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-bold border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light"
+                className="w-full mt-10 items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-bold border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light"
               >
                 Send
               </button>
@@ -110,4 +110,4 @@ const Articles = () => {
   );
 };
 
-export default Articles;
+export default Contact;
