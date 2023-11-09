@@ -209,7 +209,7 @@ const projects = () => {
             </div>
              <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Image Search App"
+                title="Image Search Web App"
                 img={imgSrc}
                 link="https://github.com/Indula-Perera/JS-Image-Search.git"
                 type="JavaScript Project"
