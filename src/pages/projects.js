@@ -13,8 +13,7 @@ import pos from "../../public/images/projects/pos.png";
 import Admin from "../../public/images/projects/Admin.png";
 import port from "../../public/images/projects/port.png";
 import RoadTrip from "../../public/images/projects/RoadTrip.png";
-
-import Project1 from "../../public/images/projects/dummy.png";
+import imgSrc from "../../public/images/projects/imgsrc.png";
 import TransitionEffect from "@/component/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -208,15 +207,17 @@ const projects = () => {
                 github="https://github.com/Indula-Perera/Travel-Website--Road-Trip-Srilanka.git"
               />
             </div>
-            {/* <div className="col-span-4 sm:col-span-12">
+             <div className="col-span-4 sm:col-span-12">
               <Project
-                title="Live Crypto Tracker"
-                img={Project1}
-                link=""
-                type="Project"
-                github=""
+                title="Image Search App"
+                img={imgSrc}
+                link="https://github.com/Indula-Perera/JS-Image-Search.git"
+                type="JavaScript Project"
+                github="https://github.com/Indula-Perera/JS-Image-Search.git"
               />
+              
             </div>
+            {/*
             <div className="col-span-12">
               <FeaturedProject
                 title="Live Crypto Tracker"
